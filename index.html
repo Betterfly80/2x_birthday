@@ -317,6 +317,51 @@
             font-weight: normal;
             text-decoration: underline;
         }
+
+        @media (max-width: 600px) {
+            td#templateHeader td {
+                padding: 0 !important;
+            }
+            td#templateHeader td  img {
+                width: 100%;
+            }
+            #image-gif img {
+                width: 100% !important;
+            }
+
+            #x-image img {
+                width: 100px !important;
+            }
+            .birthday-coming  h1, .birthday-coming  h1 span {
+                font-size: 26px !important;
+            }
+            .invited-text * {
+                font-size: 24px !important;
+            }
+
+            .doubled-text h1 span:last-child  {
+                font-size: 24px !important;
+            } 
+            .doubled-text h1 span:first-child {
+                position: relative;
+                top: -4px;
+            }
+            .th-text{
+                font-size: 22px !important;
+            }
+            .time-text{
+                font-size: 22px !important;
+            }
+            h1 a {
+                font-size: 12px !important;
+            }
+            #gutterContainerId-35 td {
+                padding-bottom: 0 !important;
+            }
+            .three-items > td {
+                padding-top: 15px !important;
+            }
+        }
     </style>
 </head>
 
@@ -499,6 +544,7 @@
                                                                                                                                                                                                             width="100%"
                                                                                                                                                                                                             style="border-collapse:separate;margin:0;vertical-align:top;width:100%;height:auto"
                                                                                                                                                                                                             role="presentation"
+                                                                                                                                                                                                            id="x-image"
                                                                                                                                                                                                             data-testid="image-21">
                                                                                                                                                                                                             <tbody>
 
@@ -516,7 +562,7 @@
                                                                                                                                                                                                                     <td
                                                                                                                                                                                                                         style="border:0;border-radius:0;margin:0;     vertical-align: bottom;">
                                                                                                                                                                                                                         <div data-block-id="23"
-                                                                                                                                                                                                                            class="mceText"
+                                                                                                                                                                                                                            class="mceText birthday-coming"
                                                                                                                                                                                                                             id="d23"
                                                                                                                                                                                                                             style="width:100%">
                                                                                                                                                                                                                             <h1
@@ -583,6 +629,7 @@
                                                     <td style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;border:0;border-radius:0"
                                                         valign="top" id="b5">
                                                         <table width="100%"
+                                                            class="invited-text"
                                                             style="border:0;background-color:#fff;border-radius:0;border-collapse:separate">
                                                             <tbody>
                                                                 <tr>
@@ -742,7 +789,7 @@
                                                                                                                                                                                                                                     <td style="padding-left:12px;padding-right:12px;padding-top:0;padding-bottom:12px"
                                                                                                                                                                                                                                         class="mceTextBlockContainer">
                                                                                                                                                                                                                                         <div data-block-id="35"
-                                                                                                                                                                                                                                            class="mceText"
+                                                                                                                                                                                                                                            class="mceText doubled-text"
                                                                                                                                                                                                                                             id="d35"
                                                                                                                                                                                                                                             style="width:100%;text-align: left;">
                                                                                                                                                                                                                                             <h1 class="last-child"
@@ -1101,7 +1148,7 @@
                                                                                                                                                             data-block-id="33">
                                                                                                                                                             <tbody>
                                                                                                                                                                 <tr
-                                                                                                                                                                    class="mceRow">
+                                                                                                                                                                    class="mceRow three-items">
                                                                                                                                                                     <td style="background-position:center;background-repeat:no-repeat;background-size:cover;padding-top:0px;padding-bottom:0px"
                                                                                                                                                                         valign="top">
                                                                                                                                                                         <table
@@ -1238,6 +1285,7 @@
                                                                                                                                                                                                                                                     February
                                                                                                                                                                                                                                                 </span>
                                                                                                                                                                                                                                                 <span
+                                                                                                                                                                                                                                                class="th-text"
                                                                                                                                                                                                                                                     style="color:#1a1f2b; font-size: 40px; font-weight: bold;">
                                                                                                                                                                                                                                                     5th
                                                                                                                                                                                                                                                 </span>
@@ -1302,6 +1350,7 @@
                                                                                                                                                                                                                                                 style="padding-left: 0; line-height: normal;text-align: right;">
 
                                                                                                                                                                                                                                                 <span
+                                                                                                                                                                                                                                                class="time-text"
                                                                                                                                                                                                                                                     style="color:#1a1f2b; font-size: 40px; font-weight: bold;">
                                                                                                                                                                                                                                                     19:00
                                                                                                                                                                                                                                                 </span>
@@ -1360,6 +1409,7 @@
 
                                         <table border="0" cellpadding="0" cellspacing="0" width="100%"
                                             class="mcnImageBlock"
+                                            id="image-gif"
                                             style="background-color: #191e2a; min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                                             <tbody class="mcnImageBlockOuter">
 
@@ -1377,7 +1427,7 @@
                                                                         <img align="center" alt=""
                                                                             src="https://mcusercontent.com/5a1c6708a7c7998892b3170a8/images/b8eaf198-84b7-0eac-1ded-3a3cf8056c91.gif"
                                                                             width="636"
-                                                                            style="max-width: 636px !important;width: 636px !important; padding-bottom: 0;display: inline !important;vertical-align: bottom;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;"
+                                                                            style="max-width: 636px;width: 636px; padding-bottom: 0;display: inline !important;vertical-align: bottom;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;"
                                                                             class="mcnImage">
                                                                     </td>
                                                                 </tr>
